@@ -1,4 +1,6 @@
 import streamlit as st
+import numpy
+import pandas
 from transformers import pipeline
 
 @st.cache(allow_output_mutation=True)
