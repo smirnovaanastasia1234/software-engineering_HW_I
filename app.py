@@ -13,7 +13,7 @@ def load_model():
 model = load_model()
 st.header ("Определение тональности текстов")
 st.subheader ("Введите текст для анализа")
-text = st.text_area(" ",height=100)
+text = st.text_area(" ", height = 100)
 result = st.button("Определить тональность текста")
 
 
