@@ -2,6 +2,8 @@ import streamlit as st
 from transformers import pipeline
 
 @st.cache(allow_output_mutation=True)
+
+
 def load_model():
     model=pipeline("sentiment-analysis",   
                       "blanchefort/rubert-base-cased-sentiment")
