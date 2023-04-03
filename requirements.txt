@@ -3,3 +3,5 @@ transformers
 tensorflow-cpu
 protobuf==3.19
 torch
+numpy
+pandas
