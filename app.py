@@ -1,5 +1,5 @@
-import streamlit as st
 import numpy as np
+import streamlit as st
 from transformers import pipeline
 
 @st.cache(allow_output_mutation=True)
